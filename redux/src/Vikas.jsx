@@ -7,7 +7,7 @@ const Vikas = () => {
 
   return (
     <div>
-      <h1>this is inside vikas component</h1>
+      <h1>this is inside <Sachin></Sachin> component</h1>
       {todos.map((todo) => (
         <div key={todo.id}>
           <p>{todo.text}</p>
